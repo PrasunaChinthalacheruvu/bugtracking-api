@@ -16,6 +16,7 @@ public class BugtrackingApiApplication {
 
 
 	public static void main(String[] args) {
+		//change made from git remote
 		SpringApplication.run(BugtrackingApiApplication.class, args);
 		LOGGER.debug("Application has been started");
 	}
