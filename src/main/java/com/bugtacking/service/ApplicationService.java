@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public interface ApplicationService {
-
+    System.out.println("git practise changes added-test");
     List<ApplicationVO> findAll();
     CompletableFuture<ApplicationVO> findById(long id) throws ApplicationNotFoundException, InterruptedException;
     CompletableFuture<ApplicationVO>  findByName(String name) throws ApplicationNotFoundException, InterruptedException;
