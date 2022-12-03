@@ -23,6 +23,7 @@ public class BugtrackingApiApplication {
         System.out.println("changes-2 made in IDE to test git push");
 		SpringApplication.run(BugtrackingApiApplication.class, args);
 		LOGGER.debug("Application has been started");
+		System.out.println("Changed file, git test");
 	}
 
 }
