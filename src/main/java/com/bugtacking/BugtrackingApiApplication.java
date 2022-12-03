@@ -18,6 +18,7 @@ public class BugtrackingApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BugtrackingApiApplication.class, args);
 		LOGGER.debug("Application has been started");
+		System.out.println("Helloooo, changed");
 	}
 
 }
